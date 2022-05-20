@@ -1,7 +1,11 @@
-function App() {
-  return (
-    <h1>Hello World</h1>
-  );
-}
+import React from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
+import SignIn from './pages/authentication/sign-in'
 
-export default App;
+const App: React.FC = () => (
+  <Router>
+    <SignIn />
+  </Router>
+)
+
+export default App
