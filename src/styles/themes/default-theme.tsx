@@ -7,11 +7,13 @@ export const defaultTheme = createTheme({
             light: '#71A4BF',
             dark: '#253f4d',
         },
+
         secondary: {
-            main: '#735938',
-            light: '#BF8437',
-            dark: '#4b3a24'
+            main: '#c79845',
+            light: '#c2a167',
+            dark: '#a77a2d'
         },
+
         background: {
             default: "#F5F5F5"
         }
@@ -21,20 +23,27 @@ export const defaultTheme = createTheme({
         allVariants: {
             color: "#253f4d"
         },
+
+        h4: {
+            fontWeight: "bold",
+        },
+
         button: {
             textTransform: 'none'
         }
     },
+
     components: {
         MuiCssBaseline: {
             styleOverrides: {
                 '.MuiInputLabel-outlined.MuiInputLabel-shrink': {
                     backgroundColor: 'white',
+                    borderRadius: '5px',
                     paddingLeft: '5px',
                     paddingRight: '5px',
                 },
                 '.MuiOutlinedInput-root': {
-                    height: '2.1em'
+                    height: '2.1em',
                 },
                 '*::-webkit-scrollbar': {
                     width: '0.1em'
@@ -72,7 +81,7 @@ export const defaultTheme = createTheme({
                 size: 'small',
                 margin: 'dense',
                 autoComplete: 'off',
-                fullWidth: true
+                fullWidth: true,
             },
         },
 
@@ -95,6 +104,7 @@ export const defaultTheme = createTheme({
 
         MuiButtonBase: {
             defaultProps: {
+
             }
         }
     },

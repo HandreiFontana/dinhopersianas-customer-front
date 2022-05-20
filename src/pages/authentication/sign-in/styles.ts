@@ -1,3 +1,4 @@
+import { Theme } from '@mui/material';
 import { makeStyles } from '@mui/styles'
 
 import backgroundImage from '../../../assets/login.png'
@@ -42,7 +43,13 @@ const useStyles = makeStyles(() => ({
     },
 
     formBox: {
-        width: '350px'
+        width: '340px'
+    },
+
+    title: {
+        display: "flex",
+        justifyContent: "center",
+        paddingBottom: "20px"
     },
 
     linearProgress: {

@@ -1,4 +1,4 @@
-import { Alert, Box, Button, Grid, LinearProgress, Link, Paper, TextField } from '@mui/material'
+import { Alert, Box, Button, Grid, LinearProgress, Link, Paper, TextField, Typography } from '@mui/material'
 import React from 'react'
 import * as yup from 'yup'
 
@@ -19,6 +19,8 @@ const SignIn: React.FC = () => {
                         data-testid="form"
                         className={classes.formBox}
                     >
+                        <Typography variant="h4" className={classes.title}>Login</Typography>
+
                         <TextField
                             required
                             name="email"
@@ -44,6 +46,7 @@ const SignIn: React.FC = () => {
                         //     { onChange: (e) => handleChange(e) }
                         //   )}
                         />
+
 
                         <Button
                             type="submit"
@@ -77,8 +80,8 @@ const SignIn: React.FC = () => {
             )} */}
                     </Box>
                 </Paper>
-            </Box>
-        </Box>
+            </Box >
+        </Box >
     )
 }
 
