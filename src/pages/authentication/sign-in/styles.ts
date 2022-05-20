@@ -1,5 +1,7 @@
 import { makeStyles } from '@mui/styles'
 
+import backgroundImage from '../../../assets/login.png'
+
 const useStyles = makeStyles(() => ({
     container: {
         display: 'flex',
@@ -17,12 +19,13 @@ const useStyles = makeStyles(() => ({
 
     paperWrapper: {
         padding: '30px',
-        minHeight: '470px',
+        minHeight: '532px',
         '@media (min-width: 1000px)': {
-            maxHeight: '470px',
-            maxWidth: '940px',
-            height: '470px',
-            width: '940px',
+            maxHeight: '532px',
+            maxWidth: '799px',
+            height: '532px',
+            width: '799px',
+            backgroundImage: `url(${backgroundImage})`,
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat'
         }

@@ -19,8 +19,6 @@ const SignIn: React.FC = () => {
                         data-testid="form"
                         className={classes.formBox}
                     >
-                        {/* <img src={logoImage} className={classes.logoImage} alt="Logo" /> */}
-
                         <h3>Login</h3>
 
                         <TextField
