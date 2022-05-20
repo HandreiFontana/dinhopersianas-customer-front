@@ -28,7 +28,10 @@ const useStyles = makeStyles(() => ({
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat'
-        }
+        },
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
     },
 
     logoImage: {

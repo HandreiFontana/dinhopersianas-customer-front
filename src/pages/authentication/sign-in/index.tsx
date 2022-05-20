@@ -19,8 +19,6 @@ const SignIn: React.FC = () => {
                         data-testid="form"
                         className={classes.formBox}
                     >
-                        <h3>Login</h3>
-
                         <TextField
                             required
                             name="email"
